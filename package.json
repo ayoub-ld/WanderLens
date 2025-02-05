@@ -1,0 +1,25 @@
+{
+  "name": "ex1-destination-voyage",
+  "version": "0.1.0",
+  "description": "Un site web pour présenter une destination de voyage (Pays / Ville / ...)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "webserver",
+    "hbs"
+  ],
+  "author": "Ayoub",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.1",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "morgan": "^1.10.0"
+  }
+}

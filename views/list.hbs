@@ -1,0 +1,29 @@
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-clifford text-center pb-12">Destinations List</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {{#each destinations}}
+        <a href="/details/{{encodeURIComponent name}}" class="group" >
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img 
+                    loading="lazy" 
+                    src="{{thumbnailImage}}" 
+                    srcset="{{thumbnailImage}} 400w, {{image}} 800w"
+                    sizes="(max-width: 768px) 100vw, 400px"
+                    alt="{{name}}" 
+                    class="w-full h-64 object-cover" 
+                    style="object-position: center 33%;" 
+                    width="400" 
+                    height="256" 
+                    fetchpriority="low" 
+                    decoding="async">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-2 group-hover:text-clifford transition-colors">{{name}}</h2>
+                    <p class="text-gray-600 text-sm mb-3">{{city}}</p>
+                    <p class="text-gray-700">{{description}}</p>
+                </div>
+            </div>
+        </a>
+        {{/each}}
+    </div>
+</div>

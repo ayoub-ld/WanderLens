@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dream Destination !</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="/images/eiffel.webp">
+    <link rel="preload" as="image" href="/images/liberty.webp">
+    <link rel="preload" as="image" href="/images/wall.webp">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+      @layer base {
+        html {
+          scroll-behavior: smooth;
+        }
+        body {
+          font-family: 'Poppins', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+          font-family: 'Inter', sans-serif;
+          letter-spacing: -0.025em;
+        }
+      }
+      /* Custom Scrollbar Styling */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 6px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 6px;
+        border: 3px solid #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #666;
+      }
+    </style>
+</head>
+<body>
+    <header class="bg-gray-800 p-4">
+        <nav class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="flex-shrink-0">
+                    <img src="images/logo.png" alt="icon" class="h-10 w-10">
+                </div>
+                <ul class="flex space-x-6">
+                    <li><a href="/" class="text-white hover:text-gray-300">Home</a></li>
+                    <li><a href="/list" class="text-white hover:text-gray-300">List</a></li>
+                    <li><a href="/details" class="text-white hover:text-gray-300">Details</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    {{{body}}}
+    <footer class="bg-gray-800 p-4 text-white text-center">Created by Ayoub in February 2025 &copy;</footer>
+</body>
+</html>

@@ -1,0 +1,324 @@
+[
+    {
+      "name": "Eiffel Tower",
+      "city": "Paris, France",
+      "description": "An iconic wrought-iron structure built in 1889, offering stunning views of Paris from its observation decks.",
+      "image": "/images/eiffel.webp",
+      "thumbnailImage": "/images/compressed/eiffel-small.webp"
+    },
+    {
+      "name": "Statue of Liberty",
+      "city": "New York City, USA",
+      "description": "A colossal neoclassical sculpture on Liberty Island, symbolizing freedom and democracy.",
+      "image": "/images/liberty.webp",
+      "thumbnailImage": "/images/compressed/liberty-small.webp"
+    },
+    {
+      "name": "Great Wall of China",
+      "city": "Beijing, China",
+      "description": "A massive ancient wall stretching thousands of miles, built to protect Chinese states and empires.",
+      "image": "/images/wall.webp",
+      "thumbnailImage": "/images/compressed/wall-small.webp"
+    },
+    {
+      "name": "Machu Picchu",
+      "city": "Cusco Region, Peru",
+      "description": "An ancient Incan citadel set high in the Andes Mountains, known for its sophisticated dry-stone construction.",
+      "image": "/images/machu.webp",
+      "thumbnailImage": "/images/compressed/machu-small.webp"
+    },
+    {
+      "name": "Sydney Opera House",
+      "city": "Sydney, Australia",
+      "description": "A world-famous performing arts center with a distinctive sail-like design, located on Bennelong Point.",
+      "image": "/images/opera.webp",
+      "thumbnailImage": "/images/compressed/opera-small.webp"
+    },
+    {
+      "name": "Taj Mahal",
+      "city": "Agra, India",
+      "description": "A breathtaking white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+      "image": "/images/taj.webp",
+      "thumbnailImage": "/images/compressed/taj-small.webp"
+    },
+    {
+      "name": "Pyramids of Giza",
+      "city": "Giza, Egypt",
+      "description": "Ancient monumental structures built as tombs for pharaohs, showcasing incredible architectural precision.",
+      "image": "/images/giza.webp",
+      "thumbnailImage": "/images/compressed/giza-small.webp"
+    },
+    {
+      "name": "Santorini",
+      "city": "Santorini, Greece",
+      "description": "A picturesque island known for its whitewashed buildings, blue-domed churches, and stunning sunsets.",
+      "image": "/images/santorini.webp",
+      "thumbnailImage": "/images/compressed/santorini-small.webp"
+    },
+    {
+      "name": "Grand Canyon",
+      "city": "Arizona, USA",
+      "description": "A massive natural wonder carved by the Colorado River, offering breathtaking views and hiking opportunities.",
+      "image": "/images/canyon.webp",
+      "thumbnailImage": "/images/compressed/canyon-small.webp"
+    },
+    {
+      "name": "Petra",
+      "city": "Ma'an Governorate, Jordan",
+      "description": "An archaeological city famous for its rock-cut architecture and water conduit system.",
+      "image": "/images/petra.webp",
+      "thumbnailImage": "/images/compressed/petra-small.webp"
+    },
+    {
+      "name": "Venice Canals",
+      "city": "Venice, Italy",
+      "description": "A romantic city built on water, famous for its intricate canal system and beautiful gondola rides.",
+      "image": "/images/venice.webp",
+      "thumbnailImage": "/images/compressed/venice-small.webp"
+    },
+    {
+      "name": "Mount Fuji",
+      "city": "Yamanashi and Shizuoka Prefectures, Japan",
+      "description": "Japan's tallest mountain and an iconic symbol of the country, popular for climbing and photography.",
+      "image": "/images/fuji.webp",
+      "thumbnailImage": "/images/compressed/fuji-small.webp"
+    },
+    {
+      "name": "Banff National Park",
+      "city": "Alberta, Canada",
+      "description": "A stunning park known for its turquoise lakes, majestic mountains, and abundant wildlife.",
+      "image": "/images/banff.webp",
+      "thumbnailImage": "/images/compressed/banff-small.webp"
+    },
+    {
+      "name": "Angkor Wat",
+      "city": "Siem Reap, Cambodia",
+      "description": "The largest religious monument in the world, originally constructed as a Hindu temple.",
+      "image": "/images/angkor-wat.webp",
+      "thumbnailImage": "/images/compressed/angkor-wat-small.webp"
+    },
+    {
+      "name": "Christ the Redeemer",
+      "city": "Rio de Janeiro, Brazil",
+      "description": "A massive statue of Jesus Christ atop Corcovado Mountain, offering panoramic views of Rio.",
+      "image": "/images/rio.webp",
+      "thumbnailImage": "/images/compressed/rio-small.webp"
+    },
+    {
+      "name": "Northern Lights",
+      "city": "Lapland, Finland",
+      "description": "A mesmerizing natural light display visible in polar regions, caused by solar particles interacting with Earth's atmosphere.",
+      "image": "/images/lights.webp",
+      "thumbnailImage": "/images/compressed/lights-small.webp"
+    },
+    {
+      "name": "Serengeti National Park",
+      "city": "Arusha, Tanzania",
+      "description": "A vast wildlife reserve known for its annual Great Migration and diverse animal species.",
+      "image": "/images/serengeti.webp",
+      "thumbnailImage": "/images/compressed/serengeti-small.webp"
+    },
+    {
+      "name": "Big Ben",
+      "city": "London, UK",
+      "description": "An iconic clock tower at the north end of the Houses of Parliament, symbolizing British history.",
+      "image": "/images/big-ben.webp",
+      "thumbnailImage": "/images/compressed/big-ben-small.webp"
+    },
+    {
+      "name": "Iguazu Falls",
+      "city": "Misiones Province, Argentina / Paraná, Brazil",
+      "description": "A breathtaking series of waterfalls surrounded by lush rainforest, shared between Argentina and Brazil.",
+      "image": "/images/iguazu.webp",
+      "thumbnailImage": "/images/compressed/iguazu-small.webp"
+    },
+    {
+      "name": "Dubai Burj Khalifa",
+      "city": "Dubai, UAE",
+      "description": "The tallest building in the world, offering luxury shopping, dining, and panoramic city views.",
+      "image": "/images/dubai.webp",
+      "thumbnailImage": "/images/compressed/dubai-small.webp"
+    },
+    {
+      "name": "Bora Bora",
+      "city": "French Polynesia",
+      "description": "A tropical paradise known for its crystal-clear lagoon, overwater bungalows, and vibrant coral reefs.",
+      "image": "/images/bora-bora.webp",
+      "thumbnailImage": "/images/compressed/bora-bora-small.webp"
+    },
+    {
+      "name": "Yellowstone National Park",
+      "city": "Wyoming, USA",
+      "description": "The first national park in the world, famous for geysers like Old Faithful and diverse wildlife.",
+      "image": "/images/yellowstone.webp",
+      "thumbnailImage": "/images/compressed/yellowstone-small.webp"
+    },
+    {
+      "name": "Acropolis of Athens",
+      "city": "Athens, Greece",
+      "description": "An ancient citadel housing several historical buildings, including the Parthenon.",
+      "image": "/images/athens.webp",
+      "thumbnailImage": "/images/compressed/athens-small.webp"
+    },
+    {
+      "name": "Uluru (Ayers Rock)",
+      "city": "Northern Territory, Australia",
+      "description": "A massive sandstone monolith sacred to Indigenous Australians, known for its changing colors at sunset.",
+      "image": "/images/uluru.webp",
+      "thumbnailImage": "/images/compressed/uluru-small.webp"
+    },
+    {
+      "name": "Halong Bay",
+      "city": "Quảng Ninh Province, Vietnam",
+      "description": "A UNESCO World Heritage Site featuring thousands of limestone karsts and isles in emerald waters.",
+      "image": "/images/halong.webp",
+      "thumbnailImage": "/images/compressed/halong-small.webp"
+    },
+    {
+      "name": "Plitvice Lakes National Park",
+      "city": "Croatia",
+      "description": "A forest reserve with cascading lakes and waterfalls, connected by wooden walkways.",
+      "image": "/images/plitvice.webp",
+      "thumbnailImage": "/images/compressed/plitvice-small.webp"
+    },
+    {
+      "name": "Chichen Itza",
+      "city": "Yucatán, Mexico",
+      "description": "An ancient Mayan city known for its pyramid El Castillo and rich cultural heritage.",
+      "image": "/images/itza.webp",
+      "thumbnailImage": "/images/compressed/itza-small.webp"
+    },
+    {
+      "name": "Victoria Falls",
+      "city": "Livingstone, Zambia / Victoria Falls, Zimbabwe",
+      "description": "One of the largest and most famous waterfalls in the world, known locally as 'The Smoke That Thunders'.",
+      "image": "/images/victoria.webp",
+      "thumbnailImage": "/images/compressed/victoria-small.webp"
+    },
+    {
+      "name": "Reykjavik",
+      "city": "Iceland",
+      "description": "The capital of Iceland, known for its colorful houses, geothermal pools, and proximity to natural wonders.",
+      "image": "/images/reykjavik.webp",
+      "thumbnailImage": "/images/compressed/reykjavik-small.webp"
+    },
+    {
+      "name": "Safari in Serengeti",
+      "city": "Tanzania",
+      "description": "Experience Africa's Big Five animals in their natural habitat during this unforgettable wildlife adventure.",
+      "image": "/images/safari.webp",
+      "thumbnailImage": "/images/compressed/safari-small.webp"
+    },
+    {
+      "name": "Prague Castle",
+      "city": "Prague, Czech Republic",
+      "description": "One of the largest ancient castles in the world, offering stunning views of Prague's skyline.",
+      "image": "/images/prague.webp",
+      "thumbnailImage": "/images/compressed/prague-small.webp"
+    },
+    {
+      "name": "Santorini Caldera",
+      "city": "Santorini, Greece",
+      "description": "A volcanic crater filled with deep blue waters, offering dramatic views and luxury resorts.",
+      "image": "/images/caldera.webp",
+      "thumbnailImage": "/images/compressed/caldera-small.webp"
+    },
+    {
+      "name": "Galápagos Islands",
+      "city": "Ecuador",
+      "description": "A unique archipelago known for its endemic species and Charles Darwin's theory of evolution.",
+      "image": "/images/galapagos.webp",
+      "thumbnailImage": "/images/compressed/galapagos-small.webp"
+    },
+    {
+      "name": "Kyoto Temples",
+      "city": "Kyoto, Japan",
+      "description": "Home to historic Buddhist temples, Shinto shrines, and traditional tea houses.",
+      "image": "/images/kyoto.webp",
+      "thumbnailImage": "/images/compressed/kyoto-small.webp"
+    },
+    {
+      "name": "Barcelona Sagrada Familia",
+      "city": "Barcelona, Spain",
+      "description": "Antoni Gaudí’s unfinished basilica, renowned for its unique architecture and intricate details.",
+      "image": "/images/barcelona.webp",
+      "thumbnailImage": "/images/compressed/barcelona-small.webp"
+    },
+    {
+      "name": "Great Ocean Road",
+      "city": "Victoria, Australia",
+      "description": "A scenic coastal drive featuring the Twelve Apostles limestone stacks rising from the ocean.",
+      "image": "/images/great-ocean-road.webp",
+      "thumbnailImage": "/images/compressed/great-ocean-road-small.webp"
+    },
+    {
+      "name": "Stonehenge",
+      "city": "Wiltshire, England",
+      "description": "A prehistoric monument consisting of massive standing stones arranged in a circular layout.",
+      "image": "/images/stonehenge.webp",
+      "thumbnailImage": "/images/compressed/stonehenge-small.webp"
+    },
+    {
+      "name": "Patagonia",
+      "city": "Argentina/Chile",
+      "description": "A remote region known for its rugged landscapes, glaciers, and diverse wildlife.",
+      "image": "/images/patagonia.webp",
+      "thumbnailImage": "/images/compressed/patagonia-small.webp"
+    },
+    {
+      "name": "Maldives Beaches",
+      "city": "Maldives",
+      "description": "A tropical paradise with pristine white-sand beaches, crystal-clear waters, and luxurious resorts.",
+      "image": "/images/maldives.webp",
+      "thumbnailImage": "/images/compressed/maldives-small.webp"
+    },
+    {
+      "name": "Colosseum",
+      "city": "Rome, Italy",
+      "description": "An ancient amphitheater that was once used for gladiatorial contests and public spectacles.",
+      "image": "/images/colosseum.webp",
+      "thumbnailImage": "/images/compressed/colosseum-small.webp"
+    },
+    {
+      "name": "Matterhorn",
+      "city": "Zermatt, Switzerland",
+      "description": "A towering Alpine peak straddling the Swiss-Italian border, popular among climbers and skiers.",
+      "image": "/images/matterhorn.webp",
+      "thumbnailImage": "/images/compressed/matterhorn-small.webp"
+    },
+    {
+      "name": "Niagara Falls",
+      "city": "Ontario, Canada / New York, USA",
+      "description": "A powerful waterfall system attracting millions of visitors annually for its beauty and energy.",
+      "image": "/images/niagara.webp",
+      "thumbnailImage": "/images/compressed/niagara-small.webp"
+    },
+    {
+      "name": "Amazon Rainforest",
+      "city": "South America",
+      "description": "The world's largest tropical rainforest, teeming with biodiversity and indigenous cultures.",
+      "image": "/images/amazon.webp",
+      "thumbnailImage": "/images/compressed/amazon-small.webp"
+    },
+    {
+      "name": "St. Petersburg Hermitage Museum",
+      "city": "St. Petersburg, Russia",
+      "description": "One of the largest and oldest museums in the world, housing millions of artworks and artifacts.",
+      "image": "/images/st-petersburg.webp",
+      "thumbnailImage": "/images/compressed/st-petersburg-small.webp"
+    },
+    {
+      "name": "Mount Everest",
+      "city": "Nepal/China",
+      "description": "The highest mountain in the world, attracting adventurers and mountaineers from across the globe.",
+      "image": "/images/everest.webp",
+      "thumbnailImage": "/images/compressed/everest-small.webp"
+    },
+    {
+      "name": "Blue Lagoon",
+      "city": "Grindavík, Iceland",
+      "description": "A geothermal spa with warm, mineral-rich waters, offering relaxation amidst lava fields.",
+      "image": "/images/blue-lagoon.webp",
+      "thumbnailImage": "/images/compressed/blue-lagoon-small.webp"
+    }
+  ]
