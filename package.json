@@ -1,7 +1,7 @@
 {
   "name": "ex1-destination-voyage",
   "version": "0.1.0",
-  "description": "Un site web pour présenter une destination de voyage (Pays / Ville / ...)",
+  "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -20,6 +20,7 @@
     "express": "^5.0.1",
     "express-handlebars": "^8.0.1",
     "handlebars": "^4.7.8",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "sharp": "^0.33.5"
   }
 }
