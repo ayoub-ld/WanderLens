@@ -1,6 +1,6 @@
 # WanderLens - Your Ultimate Travel Destination Guide 🛫🧳🏖️
 
-## Welcome to WanderLens, your go-to platform for discovering and exploring the most breathtaking travel destinations around the globe. Whether you're a seasoned traveler or planning your first adventure, WanderLens is designed to inspire and guide you through your journey.
+## Welcome to WanderLens, your go-to platform for discovering and exploring the most breathtaking travel destinations around the globe. Whether you're a seasoned traveler or planning your first adventure, WanderLens is designed to inspire and guide you through your journey
 
 ## About WanderLens
 
