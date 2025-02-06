@@ -26,7 +26,7 @@ async function compressImages() {
             await sharp(sourcePath)
                 .resize(400) // Resize to 400px width
                 .webp({ 
-                    quality: 80, // Compresses them with 80% quality (good balance between size and quality)
+                    quality: 90, // Compresses them with 90% quality (good balance between size and quality is 80%)
                     effort: 6 
                 })
                 .toFile(targetPath);

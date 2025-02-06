@@ -52,13 +52,14 @@ app.get("/contact", (req, res) => {
 });
 
 app.post("/contact", (req, res) => {
-  if (!req.body?.name || !req.body?.email || !req.body?.message) {
+  if (!req.body?.email || !req.body?.message) {
     return res.status(400).render("contact", { error: "All fields are required !" });
   }
-  res.redirect("/response");
+  console.log(req.body);
+  res.status(303).redirect("/contact/response");
 });
 
-app.get("/response", (req, res) => {
+app.get("/contact/response", (req, res) => {
   res.status(200).render("response");
 });
 
