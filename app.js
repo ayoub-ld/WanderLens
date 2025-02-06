@@ -20,8 +20,10 @@ app.engine('hbs', engine({
 app.set('view engine', 'hbs');
 app.set('views', './views');
 
+// middleware
 app.use(morgan('dev'));
 app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
 
 // routes
 app.get("/", (req, res) => {
@@ -45,11 +47,28 @@ app.get("/details/:name", (req, res) => {
   res.render("details", { destination });
 });
 
+app.get("/contact", (req, res) => {
+  res.status(200).render("contact");
+});
+
+app.post("/contact", (req, res) => {
+  if (!req.body?.name || !req.body?.email || !req.body?.message) {
+    return res.status(400).render("contact", { error: "All fields are required !" });
+  }
+  res.redirect("/response");
+});
+
+app.get("/response", (req, res) => {
+  res.status(200).render("response");
+});
+
+// error handling
 app.use((error, req, res, next) => {
   console.error(error);
   res.status(500).send("An error has occured !");
 });
 
+// start server
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
